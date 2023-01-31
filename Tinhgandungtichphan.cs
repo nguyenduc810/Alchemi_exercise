@@ -71,13 +71,14 @@ namespace TrapezoidRule
             Console.WriteLine("Ket qua cua tung luong:");
             Console.WriteLine(pnc.ans);
             kq += pnc.ans;
-            Console.WriteLine("Ket qua cua tich phan:");
-            Console.WriteLine(kq);
             Console.WriteLine("So{0}-{1} hoan thanh", pnc.StartNums, pnc.EndNums);
+            Console.WriteLine("-----------------------------------------");
         }
 
         private static void App_ApplicationFinish()
         {
+            Console.WriteLine("Ket qua cua tich phan:");
+            Console.WriteLine(kq);
             Console.WriteLine("Hoan thanh sau {0} seconds.", DateTime.Now - start);
         }
     }
