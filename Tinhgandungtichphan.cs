@@ -27,9 +27,9 @@ namespace TrapezoidRule
             {
                 host = "localhost";
             }
-            Console.Write("Dua vao so luong so can kiem tra:"); //9
+            Console.Write("Dua vao can tren cua tich phan:"); //9
             n = Int32.Parse(Console.ReadLine());
-            Console.Write("Dua vao so luong so cho 1 thread:"); //3
+            Console.Write("Dua vao so luong so phep tinh cho 1 thread:"); //3
             NumPerThread = Int32.Parse(Console.ReadLine());
             matrix = new int[n];
 
